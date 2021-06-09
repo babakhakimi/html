@@ -1,0 +1,32 @@
+{
+    "name": "lorito/html",
+    "description": "html component for Lorito Platform",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "babakhakimimehr",
+            "email": "babakhakimimehr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lorito\\Html\\" : "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "illuminate/support": "^8.40"
+    },
+    "require-dev": {
+        "illuminate/filesystem": "^8.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
